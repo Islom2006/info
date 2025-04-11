@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Весенний семестр 2025</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/random/1200x600/?university') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            margin-bottom: 30px;
+        }
+        .card {
+            transition: transform 0.3s;
+            margin-bottom: 20px;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+        .subject-card {
+            border-left: 4px solid #0d6efd;
+        }
+        .teacher-card {
+            border-left: 4px solid #198754;
+        }
+    </style>
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Весенний семестр 2025</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Расписание</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teachers">Преподаватели</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#materials">Материалы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Герой-секция -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Весенний семестр 2025</h1>
+            <p class="lead">Учебные материалы, расписание и важная информация</p>
+            <a href="#schedule" class="btn btn-primary btn-lg mt-3">Посмотреть расписание</a>
+        </div>
+    </section>
+
+    <!-- Основное содержимое -->
+    <div class="container">
+        <!-- Расписание -->
+        <section id="schedule" class="mb-5">
+            <h2 class="mb-4 text-center">Расписание занятий</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card subject-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Понедельник</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">9:00 - 10:30 - Математический анализ</li>
+                                <li class="list-group-item">11:00 - 12:30 - Программирование</li>
+                                <li class="list-group-item">14:00 - 15:30 - Физика</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card subject-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Вторник</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">10:00 - 11:30 - Иностранный язык</li>
+                                <li class="list-group-item">12:00 - 13:30 - Дискретная математика</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card subject-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Среда</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">9:00 - 10:30 - Алгоритмы и структуры данных</li>
+                                <li class="list-group-item">11:00 - 12:30 - Веб-разработка</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card subject-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Четверг</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">10:00 - 11:30 - Базы данных</li>
+                                <li class="list-group-item">12:00 - 13:30 - Философия</li>
+                                <li class="list-group-item">14:00 - 15:30 - Физкультура</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Преподаватели -->
+        <section id="teachers" class="mb-5">
+            <h2 class="mb-4 text-center">Преподаватели</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card teacher-card">
+                        <img src="https://source.unsplash.com/random/300x300/?professor" class="card-img-top" alt="Преподаватель">
+                        <div class="card-body">
+                            <h5 class="card-title">Иванов П.С.</h5>
+                            <p class="card-text">Доцент, кандидат физико-математических наук</p>
+                            <p class="card-text"><small class="text-muted">Математический анализ, Дискретная математика</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card teacher-card">
+                        <img src="https://source.unsplash.com/random/300x300/?teacher" class="card-img-top" alt="Преподаватель">
+                        <div class="card-body">
+                            <h5 class="card-title">Петрова А.В.</h5>
+                            <p class="card-text">Старший преподаватель</p>
+                            <p class="card-text"><small class="text-muted">Программирование, Алгоритмы и структуры данных</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card teacher-card">
+                        <img src="https://source.unsplash.com/random/300x300/?woman" class="card-img-top" alt="Преподаватель">
+                        <div class="card-body">
+                            <h5 class="card-title">Сидорова Е.К.</h5>
+                            <p class="card-text">Доцент, кандидат технических наук</p>
+                            <p class="card-text"><small class="text-muted">Базы данных, Веб-разработка</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Учебные материалы -->
+        <section id="materials" class="mb-5">
+            <h2 class="mb-4 text-center">Учебные материалы</h2>
+            <div class="accordion" id="materialsAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            Математический анализ
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#materialsAccordion">
+                        <div class="accordion-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="#">Лекция 1. Введение в анализ</a></li>
+                                <li class="list-group-item"><a href="#">Лекция 2. Пределы и непрерывность</a></li>
+                                <li class="list-group-item"><a href="#">Практическое задание №1</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                            Программирование
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#materialsAccordion">
+                        <div class="accordion-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="#">Лекция 1. Основы Python</a></li>
+                                <li class="list-group-item"><a href="#">Лекция 2. Функции и модули</a></li>
+                                <li class="list-group-item"><a href="#">Лабораторная работа №1</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                            Веб-разработка
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#materialsAccordion">
+                        <div class="accordion-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="#">Лекция 1. HTML и CSS</a></li>
+                                <li class="list-group-item"><a href="#">Лекция 2. Основы Bootstrap</a></li>
+                                <li class="list-group-item"><a href="#">Практическая работа №1</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section id="contacts" class="mb-5">
+            <h2 class="mb-4 text-center">Контакты</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Деканат</h5>
+                            <p class="card-text">Телефон: +7 (123) 456-78-90</p>
+                            <p class="card-text">Email: dean@university.edu</p>
+                            <p class="card-text">Адрес: ул. Университетская, 1, каб. 101</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Обратная связь</h5>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Ваше имя">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="3" placeholder="Сообщение"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Футер -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2025 Университет. Весенний семестр</p>
+            <p>Все права защищены</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
